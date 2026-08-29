@@ -4,7 +4,8 @@
   "description": "Berater Impex - High-End Real Estate Developer Portal in Islamabad",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'Static build ready'"
   },
   "keywords": ["real-estate", "islamabad", "property", "berater-impex"],
   "author": "Antigravity",

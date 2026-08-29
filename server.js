@@ -47,24 +47,13 @@ const server = http.createServer((req, res) => {
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
+      const notFoundPage = path.join(PUBLIC_DIR, '404.html');
+      if (fs.existsSync(notFoundPage)) {
+        res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
+        return fs.createReadStream(notFoundPage).pipe(res);
+      }
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' });
-      return res.end(`
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <title>Page Not Found - Berater Impex</title>
-          <link rel="stylesheet" href="/css/main.css">
-        </head>
-        <body style="display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;font-family:sans-serif;">
-          <div>
-            <h1 style="color:#004338;font-size:48px;margin-bottom:12px;">404</h1>
-            <p style="color:#3f4946;margin-bottom:24px;">The requested page could not be found.</p>
-            <a href="/" style="background:#004338;color:#fff;padding:12px 24px;border-radius:4px;text-decoration:none;font-weight:bold;">Return Home</a>
-          </div>
-        </body>
-        </html>
-      `);
+      return res.end('<h1>404 Not Found</h1>');
     }
 
     const ext = path.extname(filePath).toLowerCase();
