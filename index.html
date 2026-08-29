@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Berater Impex - Premium Real Estate Developer in Islamabad</title>
+  <meta name="description" content="Your key to premium plots in Islamabad's exclusive societies. Secure your future with institutional-grade land acquisition and development by Berater Impex." />
+
+  <!-- Tailwind CSS CDN for utility support -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#004338",
+            "primary-container": "#0f5c4e",
+            "primary-fixed": "#abf0dd",
+            "primary-fixed-dim": "#8fd4c2",
+            secondary: "#7c5800",
+            "secondary-container": "#ffc658",
+            "secondary-fixed": "#ffdea7",
+            "secondary-fixed-dim": "#f5bd51",
+            tertiary: "#3c3b35",
+            "tertiary-container": "#53524b",
+            background: "#fcf9f8",
+            surface: "#ffffff",
+            "surface-container": "#f0eded",
+            "surface-container-low": "#f6f3f2",
+            "surface-container-high": "#eae7e7",
+            "surface-container-highest": "#e4e2e1",
+            "on-surface": "#1b1c1c",
+            "on-surface-variant": "#3f4946",
+            outline: "#6f7975",
+            "outline-variant": "#bfc9c4"
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="bg-background text-on-surface font-body antialiased">
+
+  <!-- Top Navigation Bar -->
+  <nav class="header-nav full-width">
+    <div class="container-custom flex justify-between items-center py-4">
+      <a href="index.html" class="flex items-center gap-3 text-decoration-none group">
+        <img alt="Berater Impex Logo" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIqD6-6MkO7gfT57uVqvOf25FYanPmzEwdrRfjNN9j1fccgQHaCA9swRwS19jmoCaKXF52CJjsomFPeoSP829o21tfgdvNKBtXxqdQx8h3NzxUdv_FtMX0aaMchy0ENUPMhLdKC6Y9e-hNaZDT5iMMYz2AqDavm50Qm5u6lTFp3KRjd4YiRJYIIpbTwI0BWQhGWibuEJx1Vo8tfeaOerHiOwLqA5tfG4sCMpAsZg28k_5uQIPTtp8IkbbOb0fDp3sY6Cw" />
+        <span class="text-xl md:text-2xl font-bold font-heading text-primary">Berater Impex</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="hidden md:flex items-center gap-8 list-none">
+        <li><a class="nav-link active" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="projects.html">Projects</a></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="hidden md:flex items-center gap-4">
+        <button data-action="call-now" class="btn btn-primary">
+          <span class="material-symbols-outlined text-sm">call</span>
+          Call Now
+        </button>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button data-mobile-menu-toggle class="md:hidden text-primary p-2 focus:outline-none" aria-label="Open Navigation Menu">
+        <span class="material-symbols-outlined text-3xl">menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileDrawer" class="mobile-drawer">
+    <div class="mobile-drawer-content">
+      <div class="flex justify-between items-center pb-6 border-b border-outline-variant/30 mb-6">
+        <span class="text-xl font-bold font-heading text-primary">Berater Impex</span>
+        <button id="closeDrawerBtn" class="text-on-surface p-1 hover:text-primary focus:outline-none">
+          <span class="material-symbols-outlined text-2xl">close</span>
+        </button>
+      </div>
+      <nav class="flex flex-col gap-5 text-lg font-medium">
+        <a class="mobile-nav-link text-primary font-bold py-2 border-b border-outline-variant/20" href="index.html">Home</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="projects.html">Projects</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="about.html">About Us</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="gallery.html">Gallery</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="contact.html">Contact Us</a>
+      </nav>
+      <div class="mt-auto pt-6 border-t border-outline-variant/30 space-y-3">
+        <button data-action="call-now" class="btn btn-primary w-full justify-center">
+          <span class="material-symbols-outlined text-sm">call</span>
+          0321 8555599
+        </button>
+        <a href="https://wa.me/923218555599" target="_blank" class="btn btn-gold w-full justify-center">
+          <span class="material-symbols-outlined text-sm">chat</span>
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-primary">
+    <div class="absolute inset-0 z-0">
+      <div class="animate-hero-bg bg-cover bg-center w-full h-full transform scale-105" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_-o221EXlkdQDuQhJ5dHBixA-NG1NMWy4zOu1GmbkI4whDaugH3hor2AOrGzkEQYXuhkm6IDIbti0Wtf72kqf2VZe-rmL474C0eiubFVBQ_7tKUW955enG7enHM6BmzeHNuOI8UPMBEGqP0psBZBbCdJ1w6OLs24DvhoOnzr78N5ks1WZOmUG6RmuCvFgzJpFZLenE7W8-EBkrU7nFslPOwHgZBeRfYkrdpI88na8Wh6YCKfZmlipHA');"></div>
+      <!-- Balanced Emerald & Golden Hour Overlay (Clear City Visibility) -->
+      <div class="absolute inset-0 bg-primary/55 mix-blend-multiply"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/25"></div>
+    </div>
+
+    <div class="relative z-10 text-center container-custom text-white py-20">
+      <!-- Staggered Entrance Elements -->
+      <div class="hero-animate-1 inline-flex items-center gap-2 px-5 py-2 rounded-full bg-black/35 backdrop-blur-md border border-white/25 text-xs font-bold uppercase tracking-widest text-[#ffdea7] mb-6 shadow-md">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ffc658] animate-pulse"></span>
+        ISLAMABAD PREMIER REAL ESTATE DEVELOPER
+      </div>
+
+      <h1 class="hero-animate-2 hero-main-title text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 max-w-4xl mx-auto leading-tight">
+        YOUR KEY TO <span class="hero-highlight-gold">PREMIUM PLOTS</span> IN ISLAMABAD'S EXCLUSIVE SOCIETIES
+      </h1>
+
+      <p class="hero-animate-3 text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto text-white leading-relaxed drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
+        Secure your future with institutional-grade land acquisition, verified NOC clearances, and pristine master planned developments.
+      </p>
+
+      <div class="hero-animate-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a href="contact.html" class="btn btn-gold text-base py-4 px-9 font-bold w-full sm:w-auto shadow-xl">
+          BOOK NOW
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
+        </a>
+        <a href="projects.html" class="btn btn-outline-white text-base py-4 px-9 font-bold w-full sm:w-auto shadow-lg bg-black/20 backdrop-blur-sm hover:bg-white/20">
+          VIEW PROJECTS
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Highlights Section (Bento Grid with Animated Counters) -->
+  <section class="section-gap container-custom">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+      <!-- Item 1 -->
+      <div class="reveal-card stagger-1 bg-surface-container border border-outline-variant/50 p-8 rounded-xl flex flex-col items-center text-center hover:shadow-ambient transition-all duration-300">
+        <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
+          <span class="material-symbols-outlined text-3xl">domain</span>
+        </div>
+        <h3 class="text-4xl font-bold font-heading text-primary mb-2" data-counter="20" data-suffix="">0</h3>
+        <p class="text-sm font-semibold uppercase tracking-widest text-on-surface-variant">Years Experience</p>
+      </div>
+
+      <!-- Item 2 (Feature Card) -->
+      <div class="reveal-card stagger-2 bg-primary-container text-white p-8 rounded-xl flex flex-col items-center text-center shadow-lg relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-36 h-36 bg-primary rounded-bl-full opacity-60"></div>
+        <div class="w-14 h-14 rounded-full bg-white/10 flex items-center justify-center mb-4 text-secondary-fixed relative z-10">
+          <span class="material-symbols-outlined text-3xl">architecture</span>
+        </div>
+        <h3 class="text-4xl font-bold font-heading text-secondary-fixed mb-2 relative z-10" data-counter="147" data-suffix="+">0</h3>
+        <p class="text-sm font-semibold uppercase tracking-widest text-on-primary-container relative z-10">Projects Delivered</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="reveal-card stagger-3 bg-surface-container border border-outline-variant/50 p-8 rounded-xl flex flex-col items-center text-center hover:shadow-ambient transition-all duration-300">
+        <div class="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
+          <span class="material-symbols-outlined text-3xl">handshake</span>
+        </div>
+        <h3 class="text-4xl font-bold font-heading text-primary mb-2" data-counter="1000" data-suffix="+">0</h3>
+        <p class="text-sm font-semibold uppercase tracking-widest text-on-surface-variant">Satisfied Clients</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="bg-surface-container-low section-gap border-y border-outline-variant/20">
+    <div class="container-custom">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+        <div>
+          <div class="reveal-text inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">Exclusive Opportunities</div>
+          <h2 class="reveal-text text-3xl md:text-4xl font-bold text-primary mb-3">Featured Projects</h2>
+          <p class="reveal-text text-base md:text-lg text-on-surface-variant max-w-xl">Explore premium land opportunities in prime sectors of Islamabad and Rawalpindi.</p>
+        </div>
+        <a href="projects.html" class="reveal-fade hidden md:inline-flex items-center gap-2 text-primary font-bold hover:text-gold transition-colors text-sm font-heading">
+          View All Projects <span class="material-symbols-outlined text-base">arrow_forward</span>
+        </a>
+      </div>
+
+      <!-- Grid Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Featured Card 1 -->
+        <div class="reveal-card stagger-1 card-property">
+          <div class="card-image-wrap">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQ-wkvlJKiRxhVimoMAi84Zv052WD0nDK3LfHwE6bbkq0NaFkjTiFAqbuAfTfeVcj3jZJvwfceKoiYF4OcqPg7y8OC3rAiB57wtKeZZuTT9tPfdS--nzVW4iCAz9WMqnQrj1xclkTzZl_l5FGIT2lTWXRZPjG7pabLil8J-CdrvdtKiwWMpjeeNRLOCrAHq0v3brznHHZPsV81-gimNxMM9oiVvIiMhDKW5yh1ypms1nqN3kjcY9_dwA" alt="Sector D-12 Premium Plot" />
+            <span class="badge-status badge-available">Available</span>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-4">
+              <span class="chip-tag">5,000 sqft</span>
+              <span class="chip-tag">Residential</span>
+            </div>
+            <h3 class="text-xl font-bold text-on-surface mb-2 font-heading">Sector D-12 Premium Plot</h3>
+            <p class="text-sm text-on-surface-variant mb-6 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-outline text-base">location_on</span> Islamabad
+            </p>
+            <button data-project-id="park-view-city" class="w-full pt-4 border-t border-outline-variant/30 text-primary font-bold text-left hover:text-gold transition-colors flex items-center justify-between font-heading text-sm">
+              View Details <span class="material-symbols-outlined text-base">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Featured Card 2 -->
+        <div class="reveal-card stagger-2 card-property">
+          <div class="card-image-wrap">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHsIEnoobt911mn_bDCL80YIAejOSyox3ukkw4FTEZp9OuxqTCDny_1zFWiJ1QTlG5VNQUEFVwqyXWd6QVUc3K32vDZ04iHUewQ2DdBop8Vr0nYN1SChb__GE97fQFNOvsmROKGqBZ7yvPrpWZ-YVjqhgFgQU9slH6nGM5unyjJ50GTWYSFiuHcPBgTjAdaieYwXzK4Cuf-_cjL62I_hKv9s54ykLbH2T_uzYd4xf2-tVvvDdI2f94ig" alt="Blue Area Commercial Plaza" />
+            <span class="badge-status badge-reserved">Reserved</span>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-4">
+              <span class="chip-tag">10,000 sqft</span>
+              <span class="chip-tag">Commercial</span>
+            </div>
+            <h3 class="text-xl font-bold text-on-surface mb-2 font-heading">Blue Area Commercial</h3>
+            <p class="text-sm text-on-surface-variant mb-6 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-outline text-base">location_on</span> Islamabad
+            </p>
+            <button data-project-id="blue-world-city" class="w-full pt-4 border-t border-outline-variant/30 text-primary font-bold text-left hover:text-gold transition-colors flex items-center justify-between font-heading text-sm">
+              View Details <span class="material-symbols-outlined text-base">chevron_right</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Featured Card 3 -->
+        <div class="reveal-card stagger-3 card-property">
+          <div class="card-image-wrap">
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLmIXdBxP5B_P9JZVeoYX-wcZySxyTe5ESKnzPtnKjP0MVd9gAV6bbu4uUIlntSPL7Hm_qX9A2dbCDkNJXy8s8RLYJuhgPQpt6guFKTfYAYwzbjO5jlaxyDrJ1p9p2M07dgLziNNr3cIGNhZsdzAtzUIhSZcH8zYRG-pUfPbsly0sWRUNtWl389oqxb6TyjCM1MnttrD11wcPcik85MU8Mi5kzaH9GXENqfD6FXyNEn6xIv1vz3e4M-A" alt="Chak Shahzad Estate Farmhouse" />
+            <span class="badge-status badge-available">Available</span>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 mb-4">
+              <span class="chip-tag">20 Kanal</span>
+              <span class="chip-tag">Farmhouse</span>
+            </div>
+            <h3 class="text-xl font-bold text-on-surface mb-2 font-heading">Chak Shahzad Estate</h3>
+            <p class="text-sm text-on-surface-variant mb-6 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-outline text-base">location_on</span> Islamabad
+            </p>
+            <button data-project-id="capital-smart-city" class="w-full pt-4 border-t border-outline-variant/30 text-primary font-bold text-left hover:text-gold transition-colors flex items-center justify-between font-heading text-sm">
+              View Details <span class="material-symbols-outlined text-base">chevron_right</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 text-center md:hidden">
+        <a href="projects.html" class="btn btn-outline-primary w-full justify-center">View All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us / Value Proposition -->
+  <section class="section-gap container-custom">
+    <div class="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
+      <!-- Left Image Column -->
+      <div class="w-full lg:w-1/2 reveal-scale">
+        <div class="relative w-full aspect-square max-w-lg mx-auto">
+          <div class="absolute inset-4 bg-surface-container-highest rounded-2xl -z-10 translate-x-4 translate-y-4"></div>
+          <img class="w-full h-full object-cover rounded-xl border border-outline-variant/30 shadow-ambient" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAb8xCncvhs4G7RQYc4qqawkIU5MKTPRjzu8oA-Z2jhyz68JVe2BYwu_e0_pWx9iwHGaWw3ikCu6eAHsC2vT9mOMp44JBR8FIp0YZLvmysgHDm7urlLpms6LTMwrBx6g5dMovrER4kmHpAaDHn_WA_3DpD2hPAQ6kt-hBf5v0_Bia4gGNujqykU4lbitcYZXh4XH7hjAa6dtgSIZa9UeZuLZRQdbNNdhHgPzR1BtyK7sfRu_oeYL9Nz7w" alt="Berater Impex Legal Consultation" />
+        </div>
+      </div>
+
+      <!-- Right Content Column -->
+      <div class="w-full lg:w-1/2">
+        <span class="reveal-text inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">Institutional Integrity</span>
+        <h2 class="reveal-text text-3xl md:text-4xl font-bold font-heading text-primary mb-6 leading-tight">
+          Unwavering Commitment to Trust &amp; Transparency
+        </h2>
+        <p class="reveal-text text-base md:text-lg text-on-surface-variant mb-8 leading-relaxed">
+          Investing in real estate requires absolute certainty. We pride ourselves on providing fully verified, legally sound opportunities in Islamabad's most sought-after sectors.
+        </p>
+
+        <ul class="space-y-6 list-none">
+          <li class="reveal-text stagger-1 flex gap-4 items-start">
+            <div class="w-10 h-10 rounded-full bg-[#fef8ee] flex items-center justify-center text-gold shrink-0 mt-1">
+              <span class="material-symbols-outlined text-2xl">verified</span>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-on-surface mb-1 font-heading">100% NOC Approved</h4>
+              <p class="text-sm text-on-surface-variant">All our featured projects hold valid No Objection Certificates from relevant authorities (CDA, RDA), ensuring a secure investment.</p>
+            </div>
+          </li>
+
+          <li class="reveal-text stagger-2 flex gap-4 items-start">
+            <div class="w-10 h-10 rounded-full bg-[#fef8ee] flex items-center justify-center text-gold shrink-0 mt-1">
+              <span class="material-symbols-outlined text-2xl">gavel</span>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-on-surface mb-1 font-heading">Transparent Legal Transfer</h4>
+              <p class="text-sm text-on-surface-variant">We facilitate a seamless, transparent transfer process, handling all legal documentation, registry deeds and Intiqals with precision.</p>
+            </div>
+          </li>
+
+          <li class="reveal-text stagger-3 flex gap-4 items-start">
+            <div class="w-10 h-10 rounded-full bg-[#fef8ee] flex items-center justify-center text-gold shrink-0 mt-1">
+              <span class="material-symbols-outlined text-2xl">shield</span>
+            </div>
+            <div>
+              <h4 class="text-base font-bold text-on-surface mb-1 font-heading">Institutional Reliability</h4>
+              <p class="text-sm text-on-surface-variant">Backed by 20 years of stable growth, direct developer affiliations, and a portfolio of successfully delivered developments.</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="reveal-fade mt-10">
+          <a href="contact.html" class="btn btn-primary py-3.5 px-8">
+            Speak to an Advisor
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Detail Modal -->
+  <div id="projectDetailModal" class="modal-backdrop">
+    <div class="modal-box">
+      <button id="closeProjectModal" class="modal-close-btn" aria-label="Close modal">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div id="projectModalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Call Now Modal -->
+  <div id="callModal" class="modal-backdrop">
+    <div class="modal-box max-w-md p-8 text-center">
+      <button id="closeCallModal" class="modal-close-btn" aria-label="Close modal">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-4">
+        <span class="material-symbols-outlined text-3xl">phone_in_talk</span>
+      </div>
+      <h3 class="text-2xl font-bold font-heading text-primary mb-2">Contact Our Advisory Desk</h3>
+      <p class="text-sm text-on-surface-variant mb-6">Our senior property consultants in Islamabad are available to assist you.</p>
+      
+      <div class="space-y-3">
+        <a href="tel:+923218555599" class="btn btn-primary w-full py-3.5 text-base font-bold justify-center">
+          <span class="material-symbols-outlined text-base">call</span> Call 0321 8555599
+        </a>
+        <a href="https://wa.me/923218555599?text=Hello%20Berater%20Impex,%20I%20would%20like%20information%20regarding%20plot%20investments." target="_blank" class="btn btn-gold w-full py-3.5 text-base font-bold justify-center">
+          <span class="material-symbols-outlined text-base">chat</span> WhatsApp Chat
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/923218555599?text=Hello%20Berater%20Impex,%20I%20am%20interested%20in%20your%20Islamabad%20projects." target="_blank" class="whatsapp-fab" aria-label="Chat on WhatsApp">
+    <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white mt-auto pt-16 pb-12">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        <div class="col-span-1 md:col-span-2">
+          <span class="text-2xl font-bold font-heading text-white mb-4 block">Berater Impex</span>
+          <p class="text-sm text-white/80 max-w-sm mb-6 leading-relaxed">
+            Your premier partner for secure, legally vetted, and profitable land acquisitions in Islamabad's most exclusive developments.
+          </p>
+          <p class="text-xs text-white/60">
+            © 2024 Berater Impex. All rights reserved. Registered Real Estate Developer in Islamabad.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold font-heading uppercase tracking-wider text-secondary-fixed mb-4">Quick Links</h4>
+          <ul class="space-y-3 list-none text-sm">
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="projects.html">Featured Projects</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="about.html">About Leadership</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="gallery.html">Development Gallery</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="contact.html">Contact Advisory</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold font-heading uppercase tracking-wider text-secondary-fixed mb-4">Legal &amp; Trust</h4>
+          <ul class="space-y-3 list-none text-sm">
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="about.html#intiqal">Intiqal &amp; Registry Process</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="projects.html#noc">NOC Verification</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="contact.html">Islamabad Office Location</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 text-center text-xs text-white/50">
+        Designed for High-End Real Estate Development &amp; Land Acquisition in Islamabad, Pakistan.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
