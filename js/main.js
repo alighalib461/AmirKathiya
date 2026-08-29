@@ -63,12 +63,20 @@ function initCallModal() {
 }
 
 function highlightActiveNav() {
-  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  let rawPath = window.location.pathname.replace(/\/$/, '');
+  let currentSlug = rawPath.split('/').pop() || 'index';
+  currentSlug = currentSlug.replace(/\.html$/, '');
+  if (!currentSlug) currentSlug = 'index';
+
   const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
 
   navLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === currentPath || (currentPath === '' && href === 'index.html')) {
+    const rawHref = link.getAttribute('href') || '';
+    let linkSlug = rawHref.split('?')[0].split('#')[0].split('/').pop() || '';
+    linkSlug = linkSlug.replace(/\.html$/, '');
+    if (!linkSlug) linkSlug = 'index';
+
+    if (linkSlug === currentSlug) {
       link.classList.add('active');
     } else {
       link.classList.remove('active');
