@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Berater Impex | Investment Inquiries &amp; Advisory</title>
+  <meta name="description" content="Connect with Berater Impex in Islamabad. Direct consultations for premium plot acquisitions, NOC verification, and developer investments." />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#004338",
+            "primary-container": "#0f5c4e",
+            "primary-fixed": "#abf0dd",
+            "primary-fixed-dim": "#8fd4c2",
+            secondary: "#7c5800",
+            "secondary-container": "#ffc658",
+            "secondary-fixed": "#ffdea7",
+            "secondary-fixed-dim": "#f5bd51",
+            tertiary: "#3c3b35",
+            background: "#fcf9f8",
+            cream: "#f5f1e8",
+            surface: "#ffffff",
+            "surface-container": "#f0eded",
+            "surface-container-low": "#f6f3f2",
+            "surface-variant": "#e4e2e1",
+            "on-surface": "#1b1c1c",
+            "on-surface-variant": "#3f4946",
+            outline: "#6f7975",
+            "outline-variant": "#bfc9c4"
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="bg-[#F5F1E8] text-on-surface font-body antialiased selection:bg-primary-container selection:text-white min-h-screen flex flex-col">
+
+  <!-- Top Navigation Bar -->
+  <header class="header-nav full-width">
+    <div class="container-custom flex justify-between items-center py-4">
+      <a href="index.html" class="flex items-center gap-3 text-decoration-none group">
+        <img alt="Berater Impex Logo" class="h-10 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6BfhW-IMh5bH_I9I58qyuza_gHAqhJDn3_ymJbrBP6PCSQG28pWmumEIrnm5L3GoKWFtePw0YxDKRTAna4Z4YGFbgbwhvKxOhsoFdJrFdqxFBbGNdMGlW7oNLeuFAvUrq4Gq24vr2yrlAdzRpnXz4H-DDjbQjKAZ5i7o197vHudyNFz-OZWiQGzpekEeZufLY-igtyQkWZLoa5uCIC3-MRuY69k7EWJ6JzJjsHkZ6kaEjRl78frGUPs81PLH679Vp_Uc" />
+        <span class="text-xl md:text-2xl font-bold font-heading text-primary">Berater Impex</span>
+      </a>
+
+      <ul class="hidden md:flex items-center gap-8 list-none">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="projects.html">Projects</a></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li><a class="nav-link active" href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="hidden md:flex items-center gap-4">
+        <button data-action="call-now" class="btn btn-primary">
+          <span class="material-symbols-outlined text-sm">call</span>
+          Call Now
+        </button>
+      </div>
+
+      <button data-mobile-menu-toggle class="md:hidden text-primary p-2 focus:outline-none" aria-label="Open Navigation Menu">
+        <span class="material-symbols-outlined text-3xl">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileDrawer" class="mobile-drawer">
+    <div class="mobile-drawer-content">
+      <div class="flex justify-between items-center pb-6 border-b border-outline-variant/30 mb-6">
+        <span class="text-xl font-bold font-heading text-primary">Berater Impex</span>
+        <button id="closeDrawerBtn" class="text-on-surface p-1 hover:text-primary focus:outline-none">
+          <span class="material-symbols-outlined text-2xl">close</span>
+        </button>
+      </div>
+      <nav class="flex flex-col gap-5 text-lg font-medium">
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="index.html">Home</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="projects.html">Projects</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="about.html">About Us</a>
+        <a class="mobile-nav-link text-on-surface-variant hover:text-primary py-2 border-b border-outline-variant/20" href="gallery.html">Gallery</a>
+        <a class="mobile-nav-link text-primary font-bold py-2 border-b border-outline-variant/20" href="contact.html">Contact Us</a>
+      </nav>
+      <div class="mt-auto pt-6 border-t border-outline-variant/30 space-y-3">
+        <button data-action="call-now" class="btn btn-primary w-full justify-center">
+          <span class="material-symbols-outlined text-sm">call</span>
+          0321 8555599
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container-custom py-16 md:py-24 flex-grow">
+    <!-- Header Section -->
+    <div class="text-center mb-16 max-w-3xl mx-auto">
+      <div class="reveal-text inline-block text-xs font-bold uppercase tracking-widest text-[#c9962c] mb-3">Direct Advisory Services</div>
+      <h1 class="reveal-text text-3xl sm:text-4xl md:text-5xl font-bold font-heading text-primary mb-6">Connect With Us</h1>
+      <p class="reveal-text text-base md:text-lg text-on-surface-variant leading-relaxed">
+        We are here to provide comprehensive details regarding plot acquisitions, installment schedules, legal verifications, and project updates in Islamabad.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
+      
+      <!-- Contact Information & Map (Left Column) -->
+      <div class="lg:col-span-5 space-y-8 reveal-fade">
+        <!-- Direct Inquiries Card -->
+        <div class="bg-white border border-outline-variant/40 p-8 rounded-2xl shadow-ambient">
+          <h2 class="text-xl md:text-2xl font-bold font-heading text-primary mb-6">Direct Inquiries</h2>
+          
+          <div class="space-y-6">
+            <!-- Phone Link -->
+            <a href="tel:+923218555599" class="flex items-start gap-4 p-3 -mx-3 rounded-xl hover:bg-surface-container-low transition-colors group text-decoration-none">
+              <div class="w-12 h-12 rounded-full bg-[#F5F1E8] flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors shrink-0">
+                <span class="material-symbols-outlined fill">phone_in_talk</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">Sales &amp; Advisory Desk</p>
+                <p class="text-xl font-bold font-heading text-primary">0321 8555599</p>
+              </div>
+            </a>
+
+            <!-- WhatsApp Link -->
+            <a href="https://wa.me/923218555599?text=Hello%20Berater%20Impex,%20I%20would%20like%20to%20inquire%20about%20plots." target="_blank" class="flex items-start gap-4 p-3 -mx-3 rounded-xl hover:bg-surface-container-low transition-colors group text-decoration-none">
+              <div class="w-12 h-12 rounded-full bg-[#e8f8ed] flex items-center justify-center text-[#25D366] group-hover:bg-[#25D366] group-hover:text-white transition-colors shrink-0">
+                <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">WhatsApp Consult</p>
+                <p class="text-base font-bold text-on-surface">Chat with an Investment Specialist</p>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="flex items-start gap-4 p-3 -mx-3">
+              <div class="w-12 h-12 rounded-full bg-[#F5F1E8] flex items-center justify-center text-primary shrink-0">
+                <span class="material-symbols-outlined fill">location_on</span>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-on-surface-variant mb-1">Corporate Head Office</p>
+                <p class="text-base font-medium text-on-surface">Islamabad, Pakistan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Card -->
+        <div class="bg-white p-3 rounded-2xl border border-outline-variant/40 shadow-ambient">
+          <div class="w-full h-64 bg-surface-variant rounded-xl flex items-center justify-center relative overflow-hidden group">
+            <img class="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgkA_CqFbw_ROjQSU16XAMP0mI832xFItikzQHqpjYVROEAvibPudGelkloARtqxXHcN-zJ9N10oKPm4zd0l60o3uq4ZNW5vEa2AD9WCGXFg1zAxtd8aeskEtJzn_7Y52M8HnGNPFlzKMkX2myTIhBt04mmvJVHxzn6z1rd99kd8HlfaEvh1BbzXZy-Pfc6q5yzp-07nrnQR7pVFKWhXoJip8evlMwYyeWFRD4gB3AH8WnGBNM7n2NmA" alt="Islamabad Real Estate Satellite Map" />
+            <div class="absolute inset-0 bg-primary/20 mix-blend-multiply pointer-events-none"></div>
+            <a href="https://maps.google.com/?q=Islamabad,Pakistan" target="_blank" class="bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full shadow-md z-10 flex items-center gap-2 text-xs font-bold font-heading text-primary hover:bg-primary hover:text-white transition-colors">
+              <span class="material-symbols-outlined text-base text-gold">pin_drop</span>
+              <span>Open in Google Maps</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inquiry Form (Right Column) -->
+      <div class="lg:col-span-7 reveal-card">
+        <div class="bg-white border border-outline-variant/40 p-8 md:p-12 rounded-2xl shadow-ambient">
+          <div class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">Priority Registration</div>
+          <h3 class="text-2xl md:text-3xl font-bold font-heading text-primary mb-2">Investment Inquiry</h3>
+          <p class="text-sm md:text-base text-on-surface-variant mb-8">
+            Register your interest in our upcoming developments or request an official price schedule.
+          </p>
+
+          <form id="inquiryForm" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <!-- Full Name -->
+              <div class="space-y-2">
+                <label class="block text-xs font-bold uppercase tracking-wider text-on-surface" for="fullName">Full Name *</label>
+                <input class="w-full bg-[#F5F1E8] border-0 border-b-2 border-outline-variant/50 px-4 py-3.5 text-sm text-on-surface rounded-t focus:ring-0 focus:border-primary focus:bg-white transition-all" id="fullName" name="fullName" placeholder="e.g. Muhammad Ali" required type="text" />
+              </div>
+
+              <!-- Phone Number -->
+              <div class="space-y-2">
+                <label class="block text-xs font-bold uppercase tracking-wider text-on-surface" for="phone">Phone / WhatsApp Number *</label>
+                <input class="w-full bg-[#F5F1E8] border-0 border-b-2 border-outline-variant/50 px-4 py-3.5 text-sm text-on-surface rounded-t focus:ring-0 focus:border-primary focus:bg-white transition-all" id="phone" name="phone" placeholder="e.g. +92 321 8555599" required type="tel" />
+              </div>
+            </div>
+
+            <!-- Plot Size Interest -->
+            <div class="space-y-2">
+              <label class="block text-xs font-bold uppercase tracking-wider text-on-surface" for="plotSize">Interested Plot Size / Category</label>
+              <div class="relative">
+                <select class="w-full appearance-none bg-[#F5F1E8] border-0 border-b-2 border-outline-variant/50 px-4 py-3.5 text-sm text-on-surface rounded-t focus:ring-0 focus:border-primary focus:bg-white transition-all cursor-pointer" id="plotSize" name="plotSize">
+                  <option value="" selected>Select plot dimensions</option>
+                  <option value="5_marla">5 Marla (Approx. 125 Sq Yd)</option>
+                  <option value="8_marla">8 Marla (Approx. 200 Sq Yd)</option>
+                  <option value="10_marla">10 Marla (Approx. 250 Sq Yd)</option>
+                  <option value="1_kanal">1 Kanal (Approx. 500 Sq Yd)</option>
+                  <option value="2_kanal">2 Kanal / Farmhouse Estate</option>
+                  <option value="commercial">Commercial Plaza / Retail Plot</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-on-surface-variant">
+                  <span class="material-symbols-outlined text-xl">expand_more</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message -->
+            <div class="space-y-2">
+              <label class="block text-xs font-bold uppercase tracking-wider text-on-surface" for="message">Detailed Requirement / Question</label>
+              <textarea class="w-full bg-[#F5F1E8] border-0 border-b-2 border-outline-variant/50 px-4 py-3.5 text-sm text-on-surface rounded-t focus:ring-0 focus:border-primary focus:bg-white transition-all resize-none" id="message" name="message" placeholder="Please detail any specific project (e.g. Capital Smart City, Park View City), zoning inquiries, NOC verification, or payment plans..." rows="4"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="pt-4">
+              <button class="btn btn-gold py-4 px-10 text-base font-bold w-full md:w-auto justify-center group" type="submit">
+                <span>Submit Investment Inquiry</span>
+                <span class="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">arrow_forward</span>
+              </button>
+              <p class="mt-4 text-xs text-on-surface-variant leading-normal">
+                By submitting this form, you agree to receive confidential project briefs from authorized Berater Impex representatives.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Call Modal -->
+  <div id="callModal" class="modal-backdrop">
+    <div class="modal-box max-w-md p-8 text-center">
+      <button id="closeCallModal" class="modal-close-btn" aria-label="Close modal">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <div class="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mx-auto mb-4">
+        <span class="material-symbols-outlined text-3xl">phone_in_talk</span>
+      </div>
+      <h3 class="text-2xl font-bold font-heading text-primary mb-2">Direct Advisory Desk</h3>
+      <p class="text-sm text-on-surface-variant mb-6">Call directly to speak with an executive real estate consultant.</p>
+      <div class="space-y-3">
+        <a href="tel:+923218555599" class="btn btn-primary w-full py-3.5 text-base font-bold justify-center">
+          <span class="material-symbols-outlined text-base">call</span> 0321 8555599
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/923218555599" target="_blank" class="whatsapp-fab" aria-label="Chat on WhatsApp">
+    <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white mt-auto pt-16 pb-12">
+    <div class="container-custom">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        <div class="col-span-1 md:col-span-2">
+          <span class="text-2xl font-bold font-heading text-white mb-4 block">Berater Impex</span>
+          <p class="text-sm text-white/80 max-w-sm mb-6 leading-relaxed">
+            Registered Real Estate Developer in Islamabad. Direct client consultation and trusted land management solutions.
+          </p>
+          <p class="text-xs text-white/60">
+            © 2024 Berater Impex. All rights reserved.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold font-heading uppercase tracking-wider text-secondary-fixed mb-4">Quick Links</h4>
+          <ul class="space-y-3 list-none text-sm">
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="index.html">Home</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="projects.html">Projects</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="about.html">About Us</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-sm font-bold font-heading uppercase tracking-wider text-secondary-fixed mb-4">Legal Verification</h4>
+          <ul class="space-y-3 list-none text-sm">
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="projects.html#noc">NOC Clearance</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="about.html#intiqal">Intiqal Records</a></li>
+            <li><a class="text-white/80 hover:text-secondary-fixed transition-colors" href="tel:+923218555599">Hotline: 0321 8555599</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 text-center text-xs text-white/50">
+        © 2024 Berater Impex. Real Estate Development &amp; Land Acquisition Portal.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
